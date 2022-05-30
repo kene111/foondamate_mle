@@ -66,10 +66,25 @@ caught by the alogrithm, hence some sentences relating to the indvidual classes 
 didn't fit into any of the classes using the hard coded method is found,  I obtained the emedding of the text and then found the sentence similarity between the sentence and the stored sentences from both class.
 I then found the overall mean, and compared. I took the highest mean value between the sentence and the classes and returned the respective output.
 
+### Possible Limitations:
+## Possible Limitations to Rule based approach using POS Tagging:
+
+1) Construction of an english sentence is dependant on the users(students), hence a particular sentence can be phrased in multiple ways, although the alogrithm would catch a handful but a couple would be classified wrongly either by missing certain key words (pos tags) or capturing the wrong key words (pos tags).
+
+## Possible Limitations to Rule based approach combined with sentence similarity:
+
+1) Because the english key words are hard coded, some of the sentence would slip through, especially if the sentence was complexy structured.
+2) The sentences used to create the word embeddings for both classes are a handful, so there are possibilities that some complex context would not be captured.
+
+
+### Summary
+Both approaches tend work well in controlled enviroments, and in this case, the sentences/text filtered revolve around "sharing" of "emails".  
 
 ### How to run code:
-1) Kindly upload notebooks to colab and run indiviudal cells.
+1) Kindly upload notebooks to google colab and run indiviudal cells.
 2) Solution function is called "filter_sentence".
+
+
 
 
 [External Resources](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)
