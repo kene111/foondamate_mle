@@ -51,7 +51,7 @@ Either way, Mary can still alter the outcome of the statement, as to a situation
 
 For sentences that could be classified under "Student has shared" The essential keywords pos tags were mostly past tense of verbs VBD,VBN etc. A link to what these terminologies mean has been provided at the end of this readme.md
 
-The approach in the notebook was to remove the words "I", "email","share",and "your" from the sentences leaving only the key words that could be used to differentiate 
+The approach in the notebook was to remove the words "I", "email",the stem of "share",and "your" from the sentences leaving only the key words that could be used to differentiate 
 what class a sentence could belong to.
 
 This method tends to be a more generic approach as the conditions are set using the POS tags rather than the words themselves.
