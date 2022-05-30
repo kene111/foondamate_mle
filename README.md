@@ -62,8 +62,8 @@ This method tends to be a more generic approach as the conditions are set using 
 
 2) Machine_Learning_Engineering_Task_1_FoondaMate.ipynb: Similar to the method above, the key words that could be used to tell what class the sentence in an email could
 belong to were hard coded. All the algorithm does is to check if these key words can be found in the sentences. Because these words are hard coded not all sentences would be
-caught by the alogrithm, hence some sentences relating to the indvidual classes were stored seperately and their word embeddings were obtained. When a text/sentence that
-didn't fit into any of the classes using the hard coded method is found,  I obtained the emedding of the text and then found the sentence similarity between the sentence and the stored sentences from both class.
+caught by the alogrithm, hence some sentences relating to the indvidual classes were stored seperately and their vectorized form was obtained using a pre-trained word embedding model. When a text/sentence that
+didn't fit into any of the classes using the hard coded method is found,  I obtained the vectorized form of the text and then found the sentence similarity between the  vectorized sentence and the stored vectorized sentences from both class.
 I then found the overall mean, and compared. I took the highest mean value between the sentence and the classes and returned the respective output.
 
 ### Possible Limitations:
@@ -74,7 +74,7 @@ I then found the overall mean, and compared. I took the highest mean value betwe
 ## Possible Limitations to Rule based approach combined with sentence similarity:
 
 1) Because the english key words are hard coded, some of the sentences would slip through, especially if the sentence was complexy structured.
-2) The sentences used to create the word embeddings for both classes are a handful, so there are possibilities that some complex context would not be captured.
+2) The sentences used to perform sentence similarity for both classes are a handful, so there are possibilities that some complex context would not be captured.
 
 
 ### Summary
