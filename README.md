@@ -64,6 +64,11 @@ didn't fit into any of the classes using the hard coded method is found,  we obt
 We then find the overall mean, and compare. We take the highest mean value between the sentence and the classes and return the respective output.
 
 
+### How to run code:
+1) Kindly upload notebooks to colab and run indiviudal cells.
+2) Solution function is called "filter_sentence".
+
+
 [External Resources](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)
 
 
