@@ -41,6 +41,7 @@ since it not yet done.
 
 An example of what i mean is, assuming Mary recieves an email such as:
  * student: i shall share your email with my friends today.
+
 Mary, the college student adviser could respond with :
  * ==> kindly, hold on sharing my email for now, as there is an overflow of emails from students.
 * or
