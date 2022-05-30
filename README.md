@@ -5,7 +5,7 @@ This is the solution code to the machine learning engineering [task](https://car
 
 ### Methods Used:
 
-Two different approaches were used to provided a solution to task.
+Two different approaches were used to provided a solution to the task.
 1) Rule based approach.
 2) sentence similarity.
 
