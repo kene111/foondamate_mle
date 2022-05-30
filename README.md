@@ -37,7 +37,7 @@ example of when a modal is used to make a sentence seek permission:
 4) could i share your email?
 
 
-Note: Although, these examples hold true, use of english could say otherwise. What I mean by this is "I can share your email" is a statement, but using the right tonality, "I can share your email?" is a question.
+Note: Although, these examples hold true, use of english could say otherwise. What I mean by this is "I can share your email" is a statement, but using the right tonality, "I can share your email ?" is now a question.
 
 Note: I decided to classify sentences that make a statement under the "Students want to know if can share" class, reason being that a statement could be challenged,
 since it not yet done.
