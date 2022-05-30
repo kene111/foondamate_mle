@@ -34,7 +34,7 @@ example of when a modal is used to make a sentence seek permission:
 2) shall i share your email?
 3) May i share your email?
 
-Using the NLTK library, when analysing the pos tags for each word, when "i" is used before a modal it is a NN (Noun), when used after a modal, it is a VB (Verb).
+Note: Using the NLTK library, when analysing the pos tags for each word, when "i" is used before a modal it is a NN (Noun), when used after a modal, it is a VB (Verb).
 
 Note: I decided to classify sentences that make a statement under the "Students want to know if can share" class, reason being that a statement could be challenged,
 since it not yet done.
