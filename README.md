@@ -73,7 +73,7 @@ I then found the overall mean, and compared. I took the highest mean value betwe
 
 ## Possible Limitations to Rule based approach combined with sentence similarity:
 
-1) Because the english key words are hard coded, some of the sentence would slip through, especially if the sentence was complexy structured.
+1) Because the english key words are hard coded, some of the sentences would slip through, especially if the sentence was complexy structured.
 2) The sentences used to create the word embeddings for both classes are a handful, so there are possibilities that some complex context would not be captured.
 
 
