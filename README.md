@@ -69,7 +69,7 @@ I then found the overall mean, and compared. I took the highest mean value betwe
 ### Possible Limitations:
 ## Possible Limitations to Rule based approach using POS Tagging:
 
-1) Construction of an english sentence is dependant on the users(students), hence a particular sentence can be phrased in multiple ways, although the alogrithm would catch a handful but a couple would be classified wrongly either by missing certain key words (pos tags) or capturing the wrong key words (pos tags).
+1) Construction of an english sentence is dependant on the users(students), hence a particular sentence can be phrased in multiple ways, although the alogrithm would catch a handful perfectly fine, there would still be a couple would be classified wrongly either by missing certain key words (pos tags) or capturing the wrong key words (pos tags).
 
 ## Possible Limitations to Rule based approach combined with sentence similarity:
 
