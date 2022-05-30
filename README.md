@@ -60,7 +60,7 @@ This method tends to be a more generic approach as the conditions are set using 
 2) Machine_Learning_Engineering_Task_1_FoondaMate.ipynb: Similar to the method above, the key words that could be used to tell what class the sentence in an email could
 belong to were hard coded. All the algorithm does is to check if these key words can be found in the sentences. Because these words are hard coded not all sentences would be
 caught by the alogrithm, hence some sentences relating to the indvidual classes were stored seperately and their word embeddings were obtained. When a text/sentence that
-didn't fit into any of the classes is found,  we obtain the emedding of the text and then find the sentence similarity between the sentence and the stored sentences from both class.
+didn't fit into any of the classes using the hard coded method is found,  we obtain the emedding of the text and then find the sentence similarity between the sentence and the stored sentences from both class.
 We then find the overall mean, and compare. We take the highest mean value between the sentence and the classes and return the respective output.
 
 
