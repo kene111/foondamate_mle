@@ -40,11 +40,11 @@ Note: I decided to classify sentences that make a statement under the "Students 
 since it not yet done.
 
 An example of what i mean is, assuming Mary recieves an email such as:
-student: i shall your email with my friends today.
+ * student: i shall your email with my friends today.
 Mary, the college student adviser could respond with :
-==> kindly, hold on sharing my email for now, as there is an overflow of emails from students.
-or
-==> sure, go ahead.
+ * ==> kindly, hold on sharing my email for now, as there is an overflow of emails from students.
+* or
+ * ==> sure, go ahead.
 
 Either way, Mary can still alter the outcome of the statement, as to a situation where the incoming email states that her email has already been shared i.e past tense.
 
