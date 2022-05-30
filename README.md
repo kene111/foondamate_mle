@@ -49,7 +49,7 @@ Mary, the college student adviser could respond with :
 
 Either way, Mary can still alter the outcome of the statement, as to a situation where the incoming email states that her email has already been shared i.e past tense.
 
-For sentences that could be classified under "Student has shared" The essential keywords pos tags were mostly past tense of verbs VBD,VBN etc.
+For sentences that could be classified under "Student has shared" The essential keywords pos tags were mostly past tense of verbs VBD,VBN etc. A link to what these terminologies mean has been provided at the end of this readme.md
 
 The approach in the notebook was to remove the words "I", "email","share",and "your" from the sentences leaving only the key words that could be used to differentiate 
 what class a sentence could belong to.
